@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Covid-Data Metrics
 
-> One paragraph statement about the project.
+> 
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +10,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript, HTML and CSS.
+- ReactJS, Redux.
+- Web Linters.
 
 ## Live Demo
 
