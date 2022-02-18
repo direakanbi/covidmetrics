@@ -1,43 +1,37 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
-import FetchStats from '../store/api';
-import { GetStats } from '../store/reducer';
+import { useSelector } from 'react-redux';
 
 const HomePage = () => {
-  const CountryStore = useSelector((store) => store.details);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    if (CountryStore.length === 0) {
-      FetchStats()
-        .then((response) => dispatch(GetStats(response)));
-    }
-  }, []);
-
-  const Africa = CountryStore.filter((item) => item.continent === 'Africa');
+  const ContinentStore = useSelector((store) => store.continent);
 
   return (
-    <ul className="dataUL">
-      {
-      Africa.map((country) => (
-        <Link key={country.country} to={{ pathname: `/country/${country.country}` }}>
-          <li className="countryDetails">
-            <div>
-              {country.country}
-              <br />
-              Population:
-              {' '}
-              {country.population}
-            </div>
-            <div>
-              <img src={country.country_flag} alt="flag" className="flag" />
-            </div>
-          </li>
-        </Link>
-      ))
-    }
-    </ul>
+    <div className="ContinentPage" id={ContinentStore}>
+      <h1 className="continent">World Wide</h1>
+      <ul className="dataUL">
+        {
+        ContinentStore.map((continent) => (
+          <Link key={continent.name} to={{ pathname: `/continent/${continent.name}` }}>
+            <li className="ContinentDetails">
+              <div className="titles">
+                <h1 className="continentName">
+                  {continent.name}
+                </h1>
+                <h2 className="countryNumbers">
+                  {continent.number}
+                  {' '}
+                  countries
+                </h2>
+              </div>
+              <div className="map-div">
+                <img src={continent.map} alt="Continent map" className={`map ${continent.classname}`} />
+              </div>
+            </li>
+          </Link>
+        ))
+      }
+      </ul>
+    </div>
   );
 };
 

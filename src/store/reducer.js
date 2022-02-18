@@ -1,3 +1,4 @@
+
 const GET_STATS = 'covid/GET_STATS';
 
 const intialState = [];
@@ -16,4 +17,4 @@ const StatsReducer = (state = intialState, action) => {
   }
 };
 
-export { GetStats, StatsReducer };
+export { GetStats, StatsReducer, GET_STATS };
