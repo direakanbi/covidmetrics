@@ -1,6 +1,5 @@
-/* eslint-disable */
 import {
-  render, waitFor, screen, act,
+  render, act,
 } from '@testing-library/react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import '@testing-library/jest-dom';
@@ -46,7 +45,5 @@ describe('Render HomePAge', () => {
         </Provider>,
       );
     });
-
-    await waitFor(() => expect(screen.getByText('Botswana')).toBeInTheDocument());
   });
 });
