@@ -1,76 +1,58 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Covid-Data Metrics
 
-> One paragraph statement about the project.
+> 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/images/screenshot.PNG)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript, HTML and CSS.
+- ReactJS, Redux.
+- Web Linters.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://covidmetrics.herokuapp.com/)
 
 
-## Getting Started
+# Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Installation
+1. You can run: `npm install create-react-app` (to create a new react app) 
+2. After the installation of the react app you can run: `npm start` (to load it on the server)
+3. Before you run test you first have to install `jest`in order to run test you can as well add `--coverage`to the script array in your package.json
+4. Then after the previewing in locally you can now run : `npm test` (to see if the code works perfectly.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
-### Setup
+# Prerequisites
 
-### Install
+Setup: Clone https://github.com/direakanbi/covidmetrics.git into the destination folder of your local machine.
+Install: Install linters with the npx commands given in the linters.yml file.
+Usage: N/A
+Run tests: Run syntax tests with the use of the npx commands given in the linters.yml file.
+Deployment: Run index.html on your local server.
 
-### Usage
+# Authors
 
-### Run tests
+GitHub: https://github.com/direakanbi
+LinkedIn: https://www.linkedin.com/in/dire-akanbi/
 
-### Deployment
+# Acknowledgment
 
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), as required by the [Creative Commons License](https://creativecommons.org/licenses/)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+📝 License
+This project is MIT licensed
