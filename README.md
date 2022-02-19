@@ -19,19 +19,6 @@ Additional description about the project and its features.
 [Live Demo Link](https://covidmetrics.herokuapp.com/)
 
 
-## Getting Started
-
-![](/src/assets/navigation.PNG)
-![](/src/assets/Page1.PNG)
-![](/src/assets/Page2Style.PNG)
-![](/src/assets/test.PNG)
-
-
-# Built With
-
-1. React and Redux
-2. Linters (Stylelint, Lighthouse)
-
 # Getting Started
 
 ## Installation
@@ -48,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 # Prerequisites
 
-Setup: Clone https://github.com/oluyaratosin123/Metrics-Webapp.git into the destination folder of your local machine.
+Setup: Clone https://github.com/direakanbi/covidmetrics.git into the destination folder of your local machine.
 Install: Install linters with the npx commands given in the linters.yml file.
 Usage: N/A
 Run tests: Run syntax tests with the use of the npx commands given in the linters.yml file.
@@ -56,8 +43,8 @@ Deployment: Run index.html on your local server.
 
 # Authors
 
-GitHub: https://github.com/oluyaratosin123
-LinkedIn: https://www.linkedin.com/in/edward-oluyara-708b88215/
+GitHub: https://github.com/direakanbi
+LinkedIn: https://www.linkedin.com/in/dire-akanbi/
 
 # Acknowledgment
 
