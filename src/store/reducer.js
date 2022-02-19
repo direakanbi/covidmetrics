@@ -1,4 +1,3 @@
-
 const GET_STATS = 'covid/GET_STATS';
 
 const intialState = [];
